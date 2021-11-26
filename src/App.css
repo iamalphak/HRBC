@@ -1,3 +1,16 @@
 .App {
   text-align: center;
 }
+
+body{
+    background-image: url(https://ibb.co/RHPFCKy);
+    background-size: contain;
+    background-position: center;
+}
+
+#root{
+    display: grid;
+    text-align: center;
+    place-content: center;
+    min-height: 100vh;
+}
