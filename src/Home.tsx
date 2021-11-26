@@ -175,8 +175,8 @@ const Home = (props: HomeProps) => {
 
       {wallet && <p>Total Available: {itemsAvailable}</p>}
 
+      {wallet && <p>Redeemed: {itemsRedeemed}</p>}
       Mint Price 0.9 SOL
-
       {wallet && <p>Remaining: {itemsRemaining}</p>}
 
       <MintContainer>
