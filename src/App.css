@@ -2,10 +2,13 @@
   text-align: center;
 }
 
-body{
-    background-image: url(https://media.discordapp.net/attachments/907716590219456532/913796495688474624/MINTBG.png?width=1920&height=1080);
-    background-size: contain;
-    background-position: center;
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 #root{
