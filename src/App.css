@@ -2,12 +2,26 @@
   text-align: center;
 }
 
-html { 
-  background: url(https://media.discordapp.net/attachments/907716590219456532/913796495688474624/MINTBG.png?width=1920&height=1080) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+<div id="bg">
+  <img src="https://media.discordapp.net/attachments/907716590219456532/913796495688474624/MINTBG.png?width=1920&height=1080" alt="">
+</div>
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
 
 }
 
