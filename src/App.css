@@ -3,8 +3,8 @@
 }
 
 body{
-    background-image: url(https://ibb.co/RHPFCKy);
-    background-size: contain;
+    background-image: url(https://media.discordapp.net/attachments/907716590219456532/913796495688474624/MINTBG.png?width=1920&height=1080);
+    background-size: cover;
     background-position: center;
 }
 
@@ -13,4 +13,8 @@ body{
     text-align: center;
     place-content: center;
     min-height: 100vh;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-size: 1.3em
 }
